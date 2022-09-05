@@ -1,0 +1,1 @@
+Prints "Hello, world"
