@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd | frep "usr" | sort
+grep "[[0-9][:]]" /etc/passwd |
