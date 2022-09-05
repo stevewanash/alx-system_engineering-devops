@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la /etc/passwd | grep -i "usr" | sort
+cat /etc/passwd | frep "usr" | sort
