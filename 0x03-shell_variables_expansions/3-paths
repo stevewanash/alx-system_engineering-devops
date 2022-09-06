@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | $(((grep -n "*:") + 1))
+find $PATH -mindepth 1 -maxdepth 1 -type d | wc -l
