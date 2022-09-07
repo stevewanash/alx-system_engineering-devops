@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(dirCount "$PATH")
+echo $PATH | tr ':' '\n' | wc -l
