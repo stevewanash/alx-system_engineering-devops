@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "[[0-9][:]]" /etc/passwd |
+cat /etc/passwd | find ~/ -d -print | sort
